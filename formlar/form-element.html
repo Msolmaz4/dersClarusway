@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        table{
+            background-color: rgb(194,192,192);
+        }
+        .formHeader{
+            background-color: orange;
+        }
+    </style>
+</head>
+<body>
+  <table border="1">
+    <tr class="formHeader">
+        <td>
+            <img src="./avatar-men.png" alt="" width="100px">
+        </td>
+        <td>personel tenima formu</td>
+    </tr>
+    <tr>
+        <td colspan="2"> 
+       <!--  form olsutma-->
+       <form action="./index.html">
+        <div>
+            <label for="ad">adiniy</label>
+            <br>
+            <input type="text" name="AD" value="" id="ad" required>
+        </div>
+        <div>
+            <label for="soy">adiniy</label>
+            <br>
+            <input type="text" name="SOY" value="" id="soy">
+        </div>
+        <div>
+            <label for="zas">YAS</label>
+            <br>
+            <input type="number" name="ZAS" value="" id="zas">
+        </div>
+        <div>
+            <label for="email">email</label>
+            <br>
+            <input type="email" name="email" value="" id="email">
+        </div>
+
+        <div> <label for="tel">telefon</label><br>
+           <input type="tel" name="" id="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}" placeholder="xxx-xxx-xxx">
+
+        </div>
+        <div>
+
+            <!-- burad sa birini secmek icin name ayni olamlidir -->
+            <label>cinsiyet</label>
+            <br>
+        </div><div>
+            <label for="huey">Kadin</label>
+            <input type="radio" name="cinsiyet"   id="huey" value="Kad" >
+            <br></div><div>
+            <label for="dewe">erkek</label>
+            <input type="radio" name="cinsiyet" id="dewe" value="Erk" checked>
+        </div>
+
+        <div>
+            <!--  chexkout-->
+            <label for="">Musait gunler</label>
+
+            <input type="checkbox" name="Gunler" id="cumartesi" value="cumartesi"> <label for="cumartesi"> cumartesi</label>
+            <input type="checkbox" name="Gunler" id="pazar" value="pazar"> <label for="pazar"> pazar</label>
+            
+        </div>
+
+        <div>
+            <input type="submit">
+        </div>
+       </form>
+           
+        </td>
+    </tr>
+  </table>
+    
+
+</body>
+</html>
