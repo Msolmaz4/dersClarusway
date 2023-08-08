@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    border: 0;
+}
+.box{
+    background-color: black;
+    height: 100px;
+    width: 50px;
+    margin: 30px;
+}
+.box1{
+    border-top: 10px solid red;
+}
+.box:hover{
+    border-bottom: 5px solid orange;
+}
+.box3{
+    border: 10px ridge yellow;
+}
