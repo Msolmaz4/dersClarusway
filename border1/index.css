@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* bu disariya tasmasini onleriy iceride duzenleme yapar*/
+
+}
+
+h1{
+    background-color: red;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.par1{
+    background-color: yellow;
+    width: 500px;
+    margin: auto;
+}
+.par2{
+    background-color: crimson;
+}
+.par3{
+    background-color: darkblue;
+}
