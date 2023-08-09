@@ -3,3 +3,9 @@ h1{
     text-align: center;
     
 }
+.las{
+    background-color: coral;
+    width: 150px;
+    display: inline-block;
+    margin: 5px 0;
+} 
