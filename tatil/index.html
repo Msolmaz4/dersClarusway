@@ -46,9 +46,8 @@
             </fieldset>
         </div>
         <div>
-            <fieldset>
+            <fieldset> <legend>Diger Bilgiler</legend>
                 <div>
-                    <legend>Diger Bilgiler</legend>
                     <h3>buradaki alanlar Mesleki Denetimi Kapsar</h3>
                     <label for="date">sektore giris tarihi</label>
                     <input type="date" name="" id="date"><br><br>
@@ -59,11 +58,11 @@
                     <input type="radio" name="deneyim" id="iki"> <label for="iki">1-50 yIL</label><BR></BR>
                     <input type="radio" name="deneyim" id="uc"> <label for="uc">1-500 yIL</label><BR></BR>
                 </div>
-                <label for="">Programlama Dilleri</label>
-                <select multiple name="wetterbox">
+                <label for="diller">Programlama Dilleri</label>
+                <select multiple name="diller" size="4">
                     <option value="sunny"> c++</option>
                     <option value="cloud"> react</option>
-                    <option value="rainy" selected> java</option>
+                    <option value="rainy" > java</option>
                     <option value="snow"> Mongo</option>
                 </select>
         </div>
@@ -78,10 +77,11 @@
         <div>
             <fieldset>
                 <legend>Mail Listesi</legend>
+                <div>
                 <label for=""> Mail listesine katilmak <b> Istiyorum</b></label>
-                <input type="checkbox" name="" id="" value=" "><br>
+                <input type="radio" name="kabul" id="" value=" "><br>
                 <label for="">Mail Listeisne katilmak <u><b>istemiyorum</b></u></label>
-                <input type="checkbox" name="" id="" value=" ">
+                <input type="radio" name="kabul" id="" value=" "></div>
             </fieldset>
         </div>
     </form>
