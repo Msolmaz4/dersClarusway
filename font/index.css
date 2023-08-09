@@ -11,3 +11,16 @@
 .der{
     font-family: 'Noto Sans Vithkuqi', sans-serif;
 }
+
+.example {
+    color: yellow;
+    }
+    ul li a {
+    color: blue;
+    }
+    ul a {
+    color: green;
+    }
+    a {
+    color: red;
+    }
