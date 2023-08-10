@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('./background_image.jpg');
+    height: 100vh;
+    color: white;
+
+}
+.container{
+    width: 1240px;
+    height: 1036px;
+  
+    margin: auto;
+}
+
+.title{
+
+
+flex-direction: column;
+justify-content: center;
+flex-shrink: 0;
+text-align: center;
+font-style: italic;
+}
+span{
+    color: red;
+}
+.description{
+text-align: center;
+font-size: 1.5rem;
+
+}
+.survey-form{
+    width: 500px;
+    height: 897px;
+    background-color:rgba(0,0,0,0.8);
+    margin: auto;
+    padding: 30px 40px;
+}
+#name,#age,#email,#cont,#comm{
+    width: 100%;
+    padding: 10px;
+    margin-top: 1rem;
+}
+.input-box{
+    margin-top: 1.25rem;
+}
+
+.checkbox,.radio{
+    margin-top: 40px;
+
+}
+.form-submit{
+   width: 160px;
+    margin: auto;
+}
+.form-button{
+    width: 160px;
+    height: 45px;
+    border-radius: 50px;
+    background: #F00;
+    color: white;
+    border: none;
+}
