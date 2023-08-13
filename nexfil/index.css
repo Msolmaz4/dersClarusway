@@ -58,6 +58,7 @@ font-size: 1.5rem;
     margin: auto;
 }
 .form-button{
+    margin-top: 1rem;
     width: 160px;
     height: 45px;
     border-radius: 50px;
