@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: dimgrey;
+}
+
+.nav {
+    text-align: center;
+}
+
+h1 {
+    margin-top: 60px;
+    text-shadow: white 5px;
+    margin-bottom: 25px;
+    text-shadow: -4px 4px 0 white;
+}
+
+ul {
+    display: inline-flex;
+    list-style: none;
+    position: relative;
+    margin-bottom: 25px;
+}
+
+li {
+    border: 2px solid red;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    padding: 15px;
+    margin: 15px;
+    background-color: chocolate;
+    border-radius: 15px;
+}
+
+a {
+    text-decoration: none;
+    text-align: center;
+}
+
+
+.ya {
+    color: white;
+    margin-bottom: 50px;
+    font-size: 25px;
+}
+
+.orta {
+    text-align: center;
+}
+
+.resim {
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    display: flex;
+}
+
+.res {
+    border: 2px solid yellow;
+    width: 360px;
+    height: 450px;
+    transition: 1s;
+}
+
+.res:hover {
+    transform: scale(1.1);
+    background-color: black;
+    z-index: 2;
+    border-radius: 15px;
+}
+
+img {}
+
+.son {
+    display: inline-flex;
+    list-style: none;
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.son1 {
+    border: 2px solid red;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 15px;
+
+}
+.cont{
+    text-align: center;
+    justify-content: center;
+    display: flex
+}
+.cont1{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+input{
+    display: block;
+    width: 600px;
+    height: 35px;
+    margin: 10px;
+    text-align: center;
+    
+}
+
+.top{
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: blue;
+    display: flex;
+    color: white;
+    padding-left: 40px;
+    padding-top: 7px;
+   
+
+     
+     
+}
+.top1{
+    display: flex;
+    justify-content: end;
+    text-align: center;
+    margin:  0 auto;
+  
+    
+}
+.ler{
+    margin: 50px;
+    padding: 25px;
+}
