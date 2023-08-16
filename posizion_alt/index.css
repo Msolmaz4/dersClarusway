@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+p{
+    position: fixed;
+    bottom: 20px;
+    right: 15px;
+}
