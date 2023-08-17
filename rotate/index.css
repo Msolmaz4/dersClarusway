@@ -1,0 +1,62 @@
+.der{
+    text-align: center;
+    font-size: 2rem;
+    margin: 2rem auto;
+    width: 50vw;
+}
+.der1{
+    background-color:darkgoldenrod;
+    transform: rotateX(120deg);
+}
+.der2{
+background-color: blue;
+transform: rotateY(12odeg);
+
+}
+.der3:active{
+    background-color: brown;
+    transform: rotate(45deg);
+
+}
+
+.der4{
+    background-color: rgb(16, 155, 155);
+    transform: scale(1.5);
+
+}
+.der5{
+    background-color: darksalmon;
+    transform: scaleY(1.5);
+
+}
+.der6:hover{
+    background-color: brown;
+    transform: scale(1.5);
+    rotate: (30deg);
+
+}
+img{
+    width: 150px;
+    transform: skew(0deg,15deg);
+}
+.box{
+    background-color: crimson;
+    width: 100px;
+    height: 50px;
+
+}
+
+
+.x{
+
+}
+.x:active{
+    transform: translateX(50px);
+
+}
+.y:active{
+    transform: translateY(150px);
+}
+.xy{
+    transform: translate(50px,50px);
+}
