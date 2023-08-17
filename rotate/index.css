@@ -60,3 +60,18 @@ img{
 .xy{
     transform: translate(50px,50px);
 }
+.btn-div{
+    text-align: center;
+}
+.btn{
+    background-color: olive;
+    padding: 20px;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    transition: all .3s;
+}
+.btn:active{
+    background-color: crimson;
+    color: white;
+    transform: scale(80%);
+}
