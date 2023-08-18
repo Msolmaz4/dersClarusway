@@ -4,7 +4,6 @@
 }
 body{
     height:300px;
-   
 }
 img{
     height: 70px;
@@ -19,8 +18,8 @@ img{
     background-color: gray;
     border: 2px solid red;
     height:100vh;
-   position: relative;
-   margin: auto
+    position: relative;
+    margin: auto
 }
 .ma{
     position: relative;
@@ -36,11 +35,6 @@ img{
     border-radius: 50%;
     z-index: 1;
     margin-top: 90px;
-    
-  
-     
-  
-    
 }
 
 .alt{
@@ -51,8 +45,6 @@ img{
     position: relative;
     margin: auto;
     margin-top: -56px;
-
-
 }
 h1{
     padding-top: 55px;
