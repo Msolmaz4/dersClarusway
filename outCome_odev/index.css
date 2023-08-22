@@ -4,7 +4,6 @@
     box-sizing: border-box;
 }
 .contanier {
-
   width: 80%;
   height: 100vh;
   border: 2px solid red;
@@ -30,7 +29,48 @@
 
 .card {
   
-    height: 400px;
+    height: 410px;
     width: 400px;
     border: 2px solid black;
+}
+
+.kucuk {
+    width: 5px;
+    word-break: break-all;
+    padding-right: 5px;
+    font-size: 5px;
+    
+}
+.card_11 img{
+    width: 390px;
+    height:390px ;
+}
+
+.card_1{
+ display: flex;
+ border: 2px solid red;
+ border-radius: 5px;
+
+}
+
+.card_2{
+ display: flex;
+ border: 2px solid red;
+ border-radius: 5px;
+}
+.card_12 img{
+    padding-top: 50px;
+    width: 390px;
+    height:390px ;
+}
+
+p{
+    padding-left: 5px;
+}
+
+@media screen and (max-with:650px) {
+    contanier{
+    flex-direction: column;
+    }
+    
 }
