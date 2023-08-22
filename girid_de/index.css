@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.items1 {grid-area: head;}
+.items2 {grid-area: box1;}
+.items3 {grid-area: box2;}
+.items4 {grid-area: box3;}
+.items5 {grid-area: side;}
+.items6 {grid-area: main;}
+.items7 {grid-area: foot;}
+
+
+.contanier{
+    height: 100vh;
+    width: 80%;
+    
+     margin: 0 auto;
+}
+.nav{
+    width: 100%;
+    height: 80px;
+    border: 5px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.grid{
+    height: 900px;
+    grid-template-rows: 150px 350px  250px 150px;
+    border: 5px solid rebeccapurple;
+    display: grid;
+    grid-template-areas:
+      'head head head head'
+      'box1 box2 box3 side'
+      'main main main side'
+      'foot foot foot foot';
+  
+    background-color: #2196F3;
+    padding: 10px;
+    text-align: center;
+    
+
+}
+.grid > div{
+    border: 5px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+

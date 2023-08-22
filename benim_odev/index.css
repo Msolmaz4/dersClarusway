@@ -6,18 +6,26 @@
 body{
     background-color: aqua;
 }
-.container{
+.contanier{
+    width: 70%;
+    margin: 0 auto;
+    border: 5px solid yellow;
     display:flex;
+    justify-content: center;
     flex-wrap: wrap;
+    background-color: brown;
+
 }
 .nav{
     display: flex;
     flex-wrap: wrap;
     border: 1px solid red;
     text-align: center;
+    align-items: center;
     justify-content: center;
     width: 100vw;
     height: 80px;
+    
 
 }
 img{
@@ -28,42 +36,46 @@ img{
 .nav_1{
 border: 2px solid black;
 height: 80px;
-padding: 10px;
+padding: 30px;
+
 }
 .nav_2{
-    padding: 10px;
-    border: 2px solid black;
-    height: 80px;
+padding: 30px;
+border: 2px solid black;
+height: 80px;
+
 }
 .cards{
-   
+ 
  display: flex;
+ justify-content: center;
  flex-wrap: wrap;
+
     
 }
 .card_1{
-    height: 500px;
-    width: 340px;
-    margin-right: 35px;
-    border: 2px solid red;
-    display: flex;
-    padding-top: 65px;
+height: 500px;
+width: 340px;
+margin-right: 35px;
+border: 2px solid red;
+display: flex;
+padding-top: 65px;
 
    
 }
 
 .card_2{
-    margin-right: 35px;
-    height: 500px;
-    width: 340px;
-    border: 2px solid red;
-    display: flex;
-    padding-top: 120px;
+margin-right: 35px;
+height: 500px;
+width: 340px;
+border: 2px solid red;
+display: flex;
+padding-top: 120px;
 
 }
 .card_3{
-    margin-right: 35px;
-    height: 500px;
+margin-right: 35px;
+height: 500px;
     width: 340px;
     border: 2px solid red;
     padding-top: 65px;
@@ -77,3 +89,9 @@ padding: 10px;
 
 }
 
+@media screen and (max-with:650px) {
+    contanier{
+    flex-direction: column;
+    }
+    
+}
