@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contanier {
+
+  width: 80%;
+  height: 100vh;
+  border: 2px solid red;
+  margin: 0 auto;
+   
+}
+.nav{
+   display: flex;
+   justify-content: space-around;
+   text-align: center;
+   padding: 20px;
+   flex-wrap: wrap;
+}
+.nav p{
+    text-align: left;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.card {
+  
+    height: 400px;
+    width: 400px;
+    border: 2px solid black;
+}
