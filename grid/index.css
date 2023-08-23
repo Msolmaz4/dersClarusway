@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contanier {
+    display: grid;
+    grid-template-rows: 100px 400px ;
+    grid-template-columns: 200px 500px 200px 100px;
+}
+.content{
+    background-color: green;
+    border: 1px solid black;
+}
